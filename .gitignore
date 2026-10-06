@@ -1,0 +1,38 @@
+# Virtual environments
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Datasets
+data/raw/
+data/train/
+data/test/
+data/train_augmented/
+
+# Generated embeddings
+data/embeddings/
+
+# Model files
+models/*.onnx
+models/*.pkl
+models/*.pth
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.log
+
+# Generated training results
+results/*.npy
